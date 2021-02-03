@@ -1,0 +1,10 @@
+const myLogger = (store) => (next) => (action) => {
+  console.log("현재상태", store.getState());
+  console.log("액션", action);
+  const result = next(action);
+
+  console.log("다음상태", store.getState());
+  return result;
+};
+
+export default myLogger;
