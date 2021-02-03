@@ -1,4 +1,4 @@
-import React, { useDebugValue, useEffect } from "react";
+import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import Post from "../components/post";
 import { getPost } from "../modules/refactoryPosts";

@@ -1,7 +1,7 @@
 import { combineReducers } from "redux";
-import asyncCounter from "./asyncCounter";
+import asyncCounter4 from "./asyncCounter4";
 import posts from "./refactoryPosts";
 
-const rootReducer = combineReducers({ asyncCounter, posts });
+const rootReducer = combineReducers({ asyncCounter4, posts });
 
 export default rootReducer;
