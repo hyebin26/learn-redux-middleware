@@ -1,17 +1,12 @@
 import "./App.css";
 
 import React from "react";
-import AsyncCounterContainer4 from "./container/asyncCounterContainer4";
-import PostPage from "./pages/postPage";
-import PostListPage from "./pages/postListPage";
-import { Route } from "react-router-dom";
+import CounterContainer from "./container/counterContainer";
 
 const App = (props) => {
   return (
     <div>
-      <AsyncCounterContainer4 />
-      <Route path="/" component={PostListPage} exact={true} />
-      <Route path="/:id" component={PostPage} />
+      <CounterContainer />
     </div>
   );
 };
