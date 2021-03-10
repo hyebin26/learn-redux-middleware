@@ -32,15 +32,3 @@ export const getPostById = async (id) => {
   await sleep(500); // 0.5초 쉬고
   return posts.find((post) => post.id === id); // id 로 찾아서 반환
 };
-
-// import axios from 'axios';
-
-// export const getPosts = async () => {
-//   const response = await axios.get('/posts');
-//   return response.data;
-// };
-
-// export const getPostById = async id => {
-//   const response = await axios.get(`/posts/${id}`);
-//   return response.data;
-// };
