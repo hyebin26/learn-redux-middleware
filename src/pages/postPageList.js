@@ -1,8 +1,8 @@
 import React from "react";
-import PostListContainer from "../container/postListContainer";
+import PostListContainer5 from "../container/postListContainer5";
 
 function PostListPage() {
-  return <PostListContainer />;
+  return <PostListContainer5 />;
 }
 
 export default PostListPage;

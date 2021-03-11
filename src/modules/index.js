@@ -1,6 +1,6 @@
 import { combineReducers } from "redux";
-import counter, { counterSaga } from "./counter3";
-import posts, { postsSaga } from "./posts4";
+import counter, { counterSaga } from "./counter5";
+import posts, { postsSaga } from "./posts8";
 import { all } from "redux-saga/effects";
 
 const rootReducer = combineReducers({ posts, counter });
